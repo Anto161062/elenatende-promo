@@ -1,62 +1,54 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elena Ongarato - Tendaggi su Misura</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f5f2;
-            text-align: center;
-            padding: 20px;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        img {
-            width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 24px;
-            color: #5e4b43;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        .button {
-            display: inline-block;
-            padding: 12px 25px;
-            font-size: 18px;
-            color: white;
-            background-color: #b88c64;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: background-color 0.3s ease;
-        }
-        .button:hover {
-            background-color: #a87b55;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biglietto da visita - Elena Ongarato</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 40px;
+    }
+
+    .pdf-viewer {
+      margin: 30px auto;
+      width: 90%;
+      max-width: 800px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Elena Ongarato - Tendaggi su Misura</h1>
-        <p>Elena Ongarato offre un servizio esclusivo e personalizzato nel settore dei tendaggi su misura.<br>Non troverai uno showroom tradizionale, perché la nostra filosofia si basa su un approccio diretto...<br><strong>Veniamo noi da te!</strong> Con campionari, tessuti e tutto il necessario per valutare insieme la soluzione migliore.</p>
+  <h1>Biglietto da visita di Elena Ongarato</h1>
 
-        <img src="1.png" alt="Presentazione">
-        <img src="3.png" alt="Biglietto da visita">
+  <div class="pdf-viewer">
+    <iframe src="biglietto-elena.pdf#toolbar=0"></iframe>
+  </div>
 
-        <a href="https://anto161062.github.io/elena-tendaggi./" class="button" target="_blank">Vai alla landing completa</a>
-        <br><br>
-        <a href="https://www.instagram.com/_ongaratotendaggi_/" class="button" target="_blank">Visita il profilo Instagram</a>
-    </div>
+  <div class="footer">
+    © Elena Ongarato - Tutti i diritti riservati
+  </div>
 </body>
 </html>
